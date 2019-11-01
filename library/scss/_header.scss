@@ -1,0 +1,37 @@
+header {
+  position: fixed;
+  z-index: 199;
+  width:100%;
+  top:0;
+  transition: 0.75s all;
+  webkit-transition: 0.75s all;
+  .container_wide {
+    height:110px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    nav {
+      a {
+        text-decoration: none;
+        color:#666666;
+        font-weight:700;
+        font-size: 16px;
+        text-transform: uppercase;
+        margin-right:10px;
+        transition: 0.75s all;
+        webkit-transition: 0.75s all;
+        &:last-child {
+          margin-right:0;
+        }
+      }
+    }
+  }
+}
+.collapsed_header {
+  background-color: rgba(255,255,255,0.875);
+  nav {
+    a {
+      color:$orange !important;
+    }
+  }
+}

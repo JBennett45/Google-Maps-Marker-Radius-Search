@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+$orange: #F6AA2A;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+  font-family: 'open-sans', sans-serif;
+}
+img {
+  width:100%;
+}
+strong {
+  font-weight: 700;
+}
+a {
+  color:inherit;
+  text-decoration: none;
+}
+a,p, {
+  font-family: 'proxima-nova', sans-serif;
+}
+.btn_ywllow_vmer {
+  background-color: $orange;
+  padding:15px;
+  display: table;
+}
+.btn_ywllow_mre_brder {
+  border: 2px solid $orange;
+  padding:15px;
+  display: table;
+  color:$orange;
+  font-size:12px;
+  line-height: 15px;
+  font-weight:700;
+  text-transform: uppercase;
+}
+.container_wide {
+  max-width:1250px;
+  width:100%;
+  margin:0 auto;
+  @media only screen and (max-width: 1410px) {
+    padding-left:15px;
+    padding-right: 15px;
+  }
+}
+.container {
+  max-width:1105px;
+  width:100%;
+  margin:0 auto;
+  @media only screen and (max-width: 1410px) {
+    padding-left:15px;
+    padding-right: 15px;
+  }
+}
+h1,h2,h3,h4,h5,h6 {
+  margin:0;
+  font-family: 'proxima-nova', sans-serif;
+}
+
+@import "_header";
+@import "_banners";
+@import "_searchform";
+@import "_searchresults";

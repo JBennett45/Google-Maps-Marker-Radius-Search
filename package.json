@@ -1,0 +1,16 @@
+{
+  "name": "google_maps_radius_search",
+  "version": "1.0.0",
+  "description": "Search functionality with google maps geocode and places autofill",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jon Bennett",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "laravel-elixir": "^6.0.0-0",
+    "laravel-elixir-browsersync-official": "^1.0.0"
+  }
+}
